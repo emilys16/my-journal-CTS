@@ -1,0 +1,47 @@
+<div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+
+			<h1>
+				<a href="{{ SITEURL }}/">
+					<img class="profile-picture" src="{{ SITEURL }}/images/{{ PROFILE_IMAGE }}">
+					{{ SITENAME }}
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead">{{ BIO }} </p>
+			<p></p>
+		</div>
+		{% if MENUITEMS or DISPLAY_PAGES_ON_MENU %}
+			<ul class="sidebar-nav">
+			{% if MENUITEMS %}
+				{% for title, url in MENUITEMS %}
+					<li><a href="{{ url }}">{{ title }}</a></li>
+				{% endfor %}
+			{% endif %}
+			{% if DISPLAY_PAGES_ON_MENU %}
+				{% for p in pages %}
+					<li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+				{% endfor %}
+			{% endif %}
+			</ul>
+		{% endif %}
+				<nav class="sidebar-social">
+			{% for name, link in SOCIAL %}
+			  {% if name == 'email' %}
+				<a class="sidebar-social-item" href="mailto:{{ link }}"><i class="fa-solid fa-envelope"></i></a>
+			  {% elif key in ACADEMICON_KEYS %}
+				<a class="sidebar-social-item" href="{{ link }}" target="_blank" rel="me noopener"><i class="ai ai-{{ key }}"></i></a>
+			  {% else %}
+				{# Brands like github / tiktok / bluesky #}
+				<a class="sidebar-social-item" href="{{ link }}" target="_blank" rel="me noopener">
+				  <i class="fa-brands fa-{{ name }}"></i>
+				</a>
+			  {% endif %}
+			{% endfor %}
+		  </nav>
+		{% if FOOTER_TEXT %}
+			<p class="sidebar-footer">{{ FOOTER_TEXT }}</p>
+		{% endif %}
+	</div>
+</div>

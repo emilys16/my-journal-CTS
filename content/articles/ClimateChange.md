@@ -1,0 +1,23 @@
+Title: Climate Change is a Serious Issue
+Category: ENGL1030
+Date: 2025-08-08
+Author: Emily 
+Tags: climate change, essay
+
+## Persuasive essay on why climate change is as serious as some scientists and environmentalists say.
+
+Record-breaking heat waves, rising sea levels, and extreme weather events are no longer distant warnings. Some environmental skeptics say that climate change is not as serious an issue as some scientists and environmentalists are making it out to be. This mindset is dangerously dismissive of the decades of scientific evidence proving that climate change is an ever-growing problem with escalating consequences. Climate change is a serious issue, and a shift in mindset is needed to help people better understand its severity. The need for action against climate change is evident through the examination of scientific evidence and current environmental impact worldwide.
+
+Climate change is a serious issue, as human activity is one of the driving forces of climate change. There is overwhelming evidence to support the fact that human activity has accelerated the rate of global warming, making it impossible to ignore the issue. According to NASA, "The evidence comes from direct measurements of rising surface air temperatures and subsurface ocean temperatures and from phenomena such as increases in average global sea levels, retreating glaciers, and changes to many physical and biological systems. It is likely that most of the warming in recent decades can be attributed to human activities" (NASA). The level of agreement among NASA scientific societies and environmental experts makes the denial of climate change incorrect and irresponsible. By disregarding decades of peer-reviewed research from credible organizations like NASA or the government, environmental skeptics are delaying progress. Climate change is time-sensitive, and the longer we wait to make a change, the more irreversible the damage will be. It is evident that climate change is a serious issue caused by careless human activity.
+
+Climate change is a serious issue, as shown by worldwide damage to ecosystems caused by extreme weather events. Extreme weather is becoming more frequent and severe every year, leading to humanitarian and financial crises. There were 617 reported extreme weather events in 2024, of which 152 were unprecedented (Igini). According to Earth.Org, "Warmer temperatures are the main driver of more frequent and intense extreme weather events like tropical cyclones, floods, and droughts around the world, which in 2024 led to the highest number of new displacements recorded for the past 16 years" (Igini). The United States Environmental Protection Agency explains that some species are not adapting to climate change, leading to the extinction of many plant and animal species and impacting the biodiversity of certain regions (US EPA). The growing number of displaced families has caused a humanitarian crisis across the world, as is evident through the current wildfires in Canada and the recent 6.8 magnitude earthquake in Russia. The irreversible impacts of climate change on ecosystem biodiversity show the severity of this growing problem, which is worsened by a lack of climate change education. By disregarding the serious physical global impact of climate change, environmental skeptics are undermining efforts to address a crisis that threatens ecosystems, economies, public safety, and human welfare.
+
+The lack of individual action on climate change is a serious issue that continues to make a negative impact on everyone's lives and the environment. By examining scientific evidence that proves human intervention has caused rising temperatures, it shows that people do not know the individual impact they are contributing to climate change. By analyzing the damage caused by extreme weather, it is evident that climate change has caused serious, irreparable damage to the environment locally and globally. If everyone, including the skeptics, chooses to make small sustainable changes, we can slow down the effects of climate change.
+
+Works Cited
+
+Igini, Martina. “2024 Saw Highest New Climate-Related Displacements since 2008.” _Earth.org_, 20 Mar. 2025, earth.org/extreme-weather-events-in-2024-led-to-highest-number-of-new-displacements-since-2008/.
+
+NASA. “Scientific Consensus: Earth’s Climate Is Warming.” _Climate Change: Vital Signs of the Planet_, climate.nasa.gov/scientific_consensus/.
+
+US EPA. “Climate Change Impacts on Ecosystems.” _Www.epa.gov_, EPA, 23 Jan. 2025, www.epa.gov/climateimpacts/climate-change-impacts-ecosystems.

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<link href="http://gmpg.org/xfn/11" rel="profile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<!-- Metadata -->
+	<meta name="description" content="A journal about Capybara Life.">
+	<meta property="og:description" content="A journal about Capybara Life.">
+	<meta property="og:title" content="The Great Golden Adventure" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://emilys16.github.io/my-journal/the-great-golden-adventure.html" />
+
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+		<title>Portfolio</title>
+
+		<!-- CSS -->
+		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
+		<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Abril+Fatface|PT+Sans:400,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://emilys16.github.io/my-journal/theme/css/poole.css" />
+		<link rel="stylesheet" href="https://emilys16.github.io/my-journal/theme/css/hyde.css" />
+		<link rel="stylesheet" href="https://emilys16.github.io/my-journal/theme/css/syntax.css" />
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" crossorigin="anonymous">
+
+		<!-- Feeds -->
+
+		<!-- Analytics -->
+	
+		<!--Font Awesome 4.7's library of icons-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+		
+	</head>
+
+	<body class="theme-base-0d">
+<div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+
+			<h1>
+				<a href="https://emilys16.github.io/my-journal/">
+					<img class="profile-picture" src="https://emilys16.github.io/my-journal/images/capybara.jpeg">
+					Portfolio
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead">A journal about Capybara Life. </p>
+			<p></p>
+		</div>
+			<ul class="sidebar-nav">
+					<li><a href="https://emilys16.github.io/my-journal/">Home</a></li>
+					<li><a href="https://emilys16.github.io/my-journal/about.html">About</a></li>
+					<li><a href="https://emilys16.github.io/my-journal/category/issue-1.html">Issue 1</a></li>
+					<li><a href="https://emilys16.github.io/my-journal/category/issue-2.html">Issue 2</a></li>
+					<li><a href="https://emilys16.github.io/my-journal/tags.html">Tags</a></li>
+			</ul>
+				<nav class="sidebar-social">
+				<a class="sidebar-social-item" href="mailto:capybarajourno@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+				<a class="sidebar-social-item" href="https://github.com/cmiya" target="_blank" rel="me noopener">
+				  <i class="fa-brands fa-github"></i>
+				</a>
+				<a class="sidebar-social-item" href="https://bsky.app/" target="_blank" rel="me noopener">
+				  <i class="fa-brands fa-bluesky"></i>
+				</a>
+				<a class="sidebar-social-item" href="https://www.linkedin.com/" target="_blank" rel="me noopener">
+				  <i class="fa-brands fa-linkedin"></i>
+				</a>
+		  </nav>
+	</div>
+</div>		<div class="content container">
+<div class="post">
+	<h1 class="post-title">The Great Golden Adventure</h1>
+	<span class="post-date">Mon 07 October 2024</span>
+	<h2>Python Exercise 1</h2>
+<p>Design Influence</p>
+<p>We tested the text game The Oregon Trail. It influenced our own design by using an adventure type theme.</p>
+<p>Game Premise and Creation Process</p>
+<p>The premise of our game is to go on a hunt using your late grandfathers old treasure map to find hidden gold. During the creation process we encountered challenges in defining the functions. Each newly defined function needed to be put in a certain order for the code to run properly. In the future we would like to add more branches to the story and try to make the defined functions more concise.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Import a python library called time</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="c1"># ... DEFINING NEW FUNCTIONS ......................</span>
+<span class="k">def</span> <span class="nf">game_over</span><span class="p">(</span><span class="n">message</span><span class="p">):</span> <span class="c1"># &quot;You lose&quot; function that ends the game</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Game Over. You Lose.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># brief pause before exiting</span>
+    <span class="n">quit</span><span class="p">()</span> <span class="c1">#end game</span>
+
+<span class="k">def</span> <span class="nf">boat</span><span class="p">():</span> <span class="c1"># (A) of choice 1</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You come aboard the boat and navigate the rising tides and crashing waves until the storm is too much to bear.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You notice a small island in the distance but worry that the tides are too strong and will push you off-course.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">helicopter</span><span class="p">():</span> <span class="c1"># (B) of choice 1</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You get on the helicopter and fly towards the treasure.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;As you fly, the winds grow more and more dangerous.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;On your radar, you notice a small chunk of land.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&#39;It may just be debris from the storm messing up the signals,&#39; you think to yourself.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The storm is getting worse and you have to act now.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">anchor_boat</span><span class="p">():</span> <span class="c1"># (A) of choice 2.1</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You drop anchor and wait for the storm to pass.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The waves tear through the sides of your boat. The hull fills with water and the ocean devours you.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">game_over</span><span class="p">(</span><span class="s2">&quot;Cause of death: Drowning.&quot;</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">sail_island</span><span class="p">():</span> <span class="c1"># (B) of choice 2.1</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You sail towards the island and hope for safety.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The waves grow rough and mean. You hear the howling of the wind and the waves rock the boat until you can barely stand...&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Luckily, the tide continues to push you closer to the island&#39;s shore.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Finally, you crash into the sandy beach as the skies clear and the rain subsides.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You did it! You landed on the island!&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You look around and see a small village. The people seem friendly, but they could just slow you down...&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span>  
+
+<span class="k">def</span> <span class="nf">land_helicopter</span><span class="p">():</span> <span class="c1"># (A) of choice 2.2</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;As the winds become more powerful, you struggle to control the aircraft.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You feel the controls loosen. You think to yourself,&#39;This is it.&#39;&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Finally, you notice the small island below you. You decrease your altitude before disengaging the engines.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;As you free-fall out of the sky, your stomach drops.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;*THUD*&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You did it! You landed on the island!&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You look around and see a small village. The people seem friendly, but they could just slow you down...&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">fly_helicopter</span><span class="p">():</span> <span class="c1"># (B) of choice 2.2</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;As you fly, the winds continue to grow until the metal panels of your helicopter can&#39;t take it anymore.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Alarms start to go off and red lights flash as you lose control of the aircraft.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You crash into the cold ocean water and disappear beneath the waves.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">game_over</span><span class="p">(</span><span class="s2">&quot;Cause of death: Drowning.&quot;</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">ask_help</span><span class="p">():</span> <span class="c1"># (A) of choice 3</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You go into the local village to find help. A woman named Theresa says she is familiar with the land and will help you find the cave on your map!&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;She leads you to a winding path in a secluded area of the island.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&#39;I hope she *actually* knows where she&#39;s going,&#39; you think to yourself.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&#39;Here we are!&#39; says Theresa, gleefully.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You successfully reached the cave to find your grandfathers hidden treasure!&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Standing outside the cave, you realize you don&#39;t have anything to offer Theresa for her service, and you start to feel a bit badly...&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">go_alone</span><span class="p">():</span> <span class="c1"># (B) of choice 3</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;As you naviagte the dense jungle, you start to lose your bearings and forget which way you came from.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;*SNAP!*&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A jaguar jumps out infront of you!&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You try to run but its too fast. It grabs you with its claws and tears you limb from limb&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">game_over</span><span class="p">(</span><span class="s2">&quot;Cause of death: Shredded to pieces by jaguar.&quot;</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">cave_join</span><span class="p">():</span> <span class="c1"># (A) of choice 4</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You go down twists and turns in the cave until you enter a cavern. The cavern is filled with gold and jewels.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;An eerie feeling overwhelms you.&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your accomplice, Theresa, is overcome with greed. She decides she wants all of the treasure for herself.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Suddenly, you see a shadow reaching above your head and towering over you.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
+    <span class="n">game_over</span><span class="p">(</span><span class="s2">&quot;Cause of death: Stab wound &amp; loss of blood.&quot;</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">cave_alone</span><span class="p">():</span> <span class="c1"># (B) of choice 4</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You go down twists and turns in the cave until you enter a cavern. The cavern is filled with gold and jewels.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Congratualtions! You were successful in finding your grandfathers treasure!&quot;</span><span class="p">)</span>
+    <span class="k">return</span> 
+
+<span class="c1"># ... END OF DEFINING NEW FUNCTIONS ....................</span>
+
+<span class="c1"># ... START OF THE GAME CHOICES.........................</span>
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter your name: &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello,&quot;</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="s2">&quot;the traveller!&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You are on a quest for forgotten gold after finding your great grandfathers old treasure map!&quot;</span><span class="p">)</span>
+
+
+<span class="c1"># Choice 1: Get on a boat or helicopter</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You are standing on the coast of your local beach. The day is gloomy and it seems like there may be a storm coming in.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;That doesn&#39;t stop you from going on the adventure of a lifetime. You are anything but afraid.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;As you look to your right, you see a boat. When you look to your left, you see a helicopter.&quot;</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have two options:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A) Get on a boat to find the treasure.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;B) Get on a helicopter to find the treasure.&quot;</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="n">choice1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What do you do? (A/B): &quot;</span><span class="p">)</span> <span class="c1">#pick mode of transportation (boat or helicopter)</span>
+
+    <span class="c1">#Choice 2.1 BOAT option: anchor the boat or sail through the storm</span>
+    <span class="k">if</span> <span class="n">choice1</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;A&quot;</span><span class="p">:</span>
+        <span class="n">boat</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have two options:&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A) Anchor the boat and wait until the storm passes to go to the island.&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;B) Sail towards the island and hope for safety.&quot;</span><span class="p">)</span>
+        <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="n">choice2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What do you do? (A/B): &quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">choice2</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;A&quot;</span><span class="p">:</span>
+                <span class="n">anchor_boat</span><span class="p">()</span>
+                <span class="k">break</span>
+            <span class="k">elif</span> <span class="n">choice2</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;B&quot;</span><span class="p">:</span>
+                <span class="n">sail_island</span><span class="p">()</span>
+                <span class="k">break</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Invalid choice. Please enter A or B.&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Choice 2.2 HELICOPTER option: Emergency landing or fly through the storm</span>
+    <span class="k">elif</span> <span class="n">choice1</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;B&quot;</span><span class="p">:</span>
+        <span class="n">helicopter</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have two options:&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A) Continue flying until you are certain you&#39;ve found land.&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;B) Risk making an emergency landing.&quot;</span><span class="p">)</span>
+        <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="n">choice2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What do you do? (A/B): &quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">choice2</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;A&quot;</span><span class="p">:</span>
+                <span class="n">fly_helicopter</span><span class="p">()</span>
+                <span class="k">break</span>
+            <span class="k">elif</span> <span class="n">choice2</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;B&quot;</span><span class="p">:</span>
+                <span class="n">land_helicopter</span><span class="p">()</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Invalid choice. Please enter A or B.&quot;</span><span class="p">)</span>
+        <span class="k">break</span>
+
+    <span class="k">else</span><span class="p">:</span> <span class="c1">#linking the ELSE statement back up to choice 1 in case user inputs an invalid choice</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Invalid choice. Please enter A or B.&quot;</span><span class="p">)</span>
+
+<span class="c1"># Choice 3: ask a local for help or navigate alone but only if player survived thus far - indicated by choice notation</span>
+    <span class="k">if</span> <span class="n">choice2</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;B&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have two options:&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A) Ask a local for help.&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;B) Go alone and navigate yourself.&quot;</span><span class="p">)</span>
+        <span class="n">choice3</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What do you do? (A/B): &quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">choice3</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;A&quot;</span><span class="p">:</span>
+            <span class="n">ask_help</span><span class="p">()</span>
+        <span class="k">elif</span> <span class="n">choice3</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;B&quot;</span><span class="p">:</span>
+            <span class="n">go_alone</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Invalid choice. Please enter A or B.&quot;</span><span class="p">)</span>
+
+<span class="c1"># Choice 4: find the treasure with Theresa or find it alone</span>
+    <span class="k">if</span> <span class="n">choice3</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;A&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;You have two options:&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A) Ask Theresa to join you in the treasure hunt.&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;B) Thank Theresa for her help and go inside the cave alone.&quot;</span><span class="p">)</span>    
+        <span class="n">choice4</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What do you do? (A/B): &quot;</span><span class="p">)</span>    
+        <span class="k">if</span> <span class="n">choice4</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;A&quot;</span><span class="p">:</span>
+            <span class="n">cave_join</span><span class="p">()</span>
+            <span class="k">break</span>
+        <span class="k">elif</span> <span class="n">choice4</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;B&quot;</span><span class="p">:</span>
+            <span class="n">cave_alone</span><span class="p">()</span>
+            <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Invalid choice. Please enter A or B.&quot;</span><span class="p">)</span>
+            <span class="k">break</span> 
+    <span class="k">else</span><span class="p">:</span> 
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Invalid choice. Please enter A or B.&quot;</span><span class="p">)</span>
+        <span class="k">break</span>
+</code></pre></div>
+
+		<span class="post-tags">
+			Tags:
+			<ul>
+					<li><a href="https://emilys16.github.io/my-journal//tag/python.html">python</a></li>
+			</ul>
+		</span>
+
+</div>
+		</div>
+	</body>
+</html>
