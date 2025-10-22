@@ -1,6 +1,6 @@
 AUTHOR = 'Emily Scott'
 SITENAME = 'Portfolio'
-SITEURL = "https://emilys16.github.io/my-journal"
+SITEURL = "https://emilys16.github.io/my-journal-CTS"
 FEED_DOMAIN = SITEURL
 RELATIVE_URLS = False
 
