@@ -34,7 +34,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # COPY AND PASTED STUFF
-THEME = 'themes/pelican-hyde-master'
+THEME = 'themes/Flex'
 PROFILE_IMAGE = "DrawnProfile.png" 
 BIO = "A journal about Capybara Life."
 
