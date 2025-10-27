@@ -52,8 +52,8 @@ DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
     ("Home", SITEURL + "/"),
     ("About", SITEURL + "/about.html"),
-    ("Issue 1", SITEURL + "/category/issue-1.html"),
-    ("Issue 2", SITEURL + "/category/issue-2.html"),
+    #("Issue 1", SITEURL + "/category/issue-1.html"),
+    #("Issue 2", SITEURL + "/category/issue-2.html"),
     ("CTS1000", SITEURL + "/category/CTS1000.html"),
     ("CTS2000", SITEURL + "/category/CTS2000.html"),
     ("ENGL3010", SITEURL + "/category/ENGL3010.html"),
