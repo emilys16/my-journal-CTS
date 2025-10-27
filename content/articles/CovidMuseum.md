@@ -12,10 +12,10 @@ The COVID Museum will display a variety of artifacts from the 2019-2021 era of t
 
 The star artifact of the health exhibit is the COVID-19 Rapid Response Antigen tests. Rapid Antigen self-testing kits were an important tool in the pandemic designed to detect the presence of virus proteins. These tests were often given out for free in pharmacies, test centres, and grocery stores and were useful for mass testing in schools, workplaces, large events, and travel. These tests are important to help control outbreaks and limit transmission of the virus.
 
-![image](RapidTestKit.png)
+![image](RapidTestKit .png)
 
 Covid-19 Rapid Test Metadata
-![image](Covid-19Metadata.png)
+![image](Covid-19Metadata .png)
 
 Contextual and Ethical Considerations
 
