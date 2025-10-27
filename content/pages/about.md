@@ -2,7 +2,7 @@ Title: About
 slug: about
 Authors: Emily
 Date: 08-11-2025
-Summary: Description of the Capybara Life Journal 
+Summary: Emily's Culture and Technology Studies Portfolio 
 
 Welcome to my Substack CTS portfolio!
 
