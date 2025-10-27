@@ -36,7 +36,7 @@ DEFAULT_PAGINATION = 10
 # COPY AND PASTED STUFF
 THEME = 'themes/pelican-hyde-master'
 PROFILE_IMAGE = "DrawnProfile.png" 
-BIO = "A journal about Capybara Life."
+BIO = "Emily's Culture and Technology Studies work"
 
 # Save pages at the top level instead of /pages/
 PAGE_URL = '{slug}.html'
